@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { supabase } from "../lib/supabaseClient"
 
 export default function Home() {
+  console.log("DEPLOY TEST 123")
   const [data, setData] = useState([])
 
   useEffect(() => {
